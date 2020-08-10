@@ -5,6 +5,8 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scroll-snap-stop: always;
+
+-webkit-tap-highlight-color: transparent;
 }
 section{
   scroll-snap-align: start;

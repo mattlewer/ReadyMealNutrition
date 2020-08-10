@@ -58,6 +58,7 @@
 
 }
 .csv{
+    font-size: 70%;
     color:#d1d1d1;
     margin:0;
 }
@@ -84,7 +85,7 @@
     }
     .ab-all{
         flex-direction: column;
-        padding-top: 20vh;
+        padding-top: 30vh;
         height:80vh;
         justify-content: center;
     }
