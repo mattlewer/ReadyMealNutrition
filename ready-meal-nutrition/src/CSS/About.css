@@ -1,89 +1,121 @@
 #ObtainingData{
+    height:100vh;
     padding:0;
     margin:0;
     color:#d1d1d1;
     background-color: #1c1c1c;
-    height:100vh;
-
 }
-
-.ab-content{
+.ab-all{
+    height:100%;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top:10vh;
-    height:90vh;
+}
+.ab-content{
     text-align: center;
+    margin-left:2%;
+    margin-right:2%;
+    width:70%;
     margin:auto;
-    padding-top:10px;
 }
 
 .ab-title{
-
-    width:100%;
     font-weight: lighter;
     font-size:150%;
     color: #FF638F;
-
-}
-
-
-.ab-subHead{
-    width:100%;
-    font-size:70%;
-}
-.ab-subHead2{
-    width:100%;
-    font-size:70%;
 }
 .ab-mid{
-    margin-top:4%;
-    text-align: center;
-    width:100%;
     font-weight: lighter;
-    font-size:120%;
+    margin-top:28px;
+    font-size:90%;
     color: #FF638F;
 }
-.ab-para{
-    width:100%;
-    font-size:70%;
-
-}
-.CSVSection{
-    margin-top:40px;
-}
-
-.csv{
+.ab-subHead{
+    font-weight: lighter;
     text-align: center;
-    color: #FF638F;
-    display:inline-block;
-    margin:0;
-    text-decoration: none;
-    transition: 0.5s;
+    margin-left:2%;
+    margin-right:2%;
+    padding-top: 20px;
+    width:70%;
+    margin:auto;
+    font-size: 70%;
+    color:#d1d1d1;
+}
 
+.ab-subHead2{
+    font-weight: lighter;
+    text-align: center;
+    margin-left:2%;
+    margin-right:2%;
+    padding-top: 20px;
+    width:70%;
+    margin:auto;
+    font-size: 70%;
+    color:#d1d1d1;
+}
+.csv{
+    color:#FF638F;
+    margin:0;
+}
+.ab-ImageContainer{
+    padding-top: 100px;
+    padding-right: 8%;
+    width:50%;
+    text-align: center;
+    margin:auto;
+}
+.ab-dataImage{
+    width:60%;
+    margin:auto;
 }
 
 @media screen and (max-width:750px){
     #ObtainingData{
-        text-align: center;
-        height:100vh;
-
-    }
-    .ab.all{
-        padding:0;
-        margin:0;
+        height:80vh;
+        padding-bottom: 20vh;
+        width:100%;
+        display:flex;
+        flex-direction: column;
         justify-content: center;
     }
-    .ab-subHead{
-        width:80%;
-        font-size:70%;
-        margin:auto;
+    .ab-all{
+        flex-direction: column;
+        padding-top: 20vh;
+        height:80vh;
+        justify-content: center;
+    }
+    .ab-headers{
+        width:100%;
+        font-size: 20px;
+        /* margin-top: -320px; */
+        order:2;
+    }
+    .ab-mid{
+        margin-bottom: -15px;
+    }
+    
+    .CSVSection{
+        font-size: 20px;
+        color:#d1d1d1;
+        order:3;
     }
     .ab-content{
-        text-align: center;
-        justify-content: center;
-        margin:0;
         width:100%;
-        height:90vh;
+        margin-top:-20%;
+        margin-bottom: 20%;
+        padding-top:-500px;
     }
+    .ab-ImageContainer{
+        padding:0;
+        order:-1;
+        padding-left: 0%;
+        width:65%;
+        /* margin-top: 90px; */
+    }
+    .ab-dataImage{
+        order:1;
+        /* width:100%; */
+    }
+    .ab-subHead{
+        width:90%;
+    }
+
 }

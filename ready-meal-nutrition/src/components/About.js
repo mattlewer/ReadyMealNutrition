@@ -1,21 +1,24 @@
 import React from 'react';
 import '../CSS/About.css';
-
+import DataImage from '../Images/about.svg'
 function About(){
     return(
         <section id="ObtainingData">
             <div className="ab-all">
-            <div className="ab-content">
-                    <div>
-                    <h3 className="ab-title">About</h3>
-                    <h1 className="ab-mid">Python scripts - Selenium & BS4</h1>
-                    <p className="ab-subHead">For collecting data, Python Scripts were created to retrieve all nutritional
-                    data for UK supermarkets, under the sub-section 'Ready Meals For One'<br/></p>
+                <div className="ab-content">
+                    <div className="ab-headers">
+                        <h3 className="ab-title">About</h3>
+                        <h1 className="ab-mid">Python scripts - Selenium & BS4</h1>
+                        <p className="ab-subHead">For collecting data, Python Scripts were created to retrieve all nutritional
+                        data for UK supermarkets, under the sub-section 'Ready Meals For One'<br/></p>
+                    </div>
                     <div className="CSVSection">
-                        <p className="ab-subHead2">The CSV files for the datasets can be found here:<br/>
-                        <a className="csv" href="https://drive.google.com/drive/folders/1156y5PwvwWA3CSRonY6YXRXz9F-xg4sq?usp=sharing">Click Me</a></p>
+                        <p className="ab-subHead2">GitHub repo containing Python Scripts, CSV files & website code:<br/>
+                        <a className="csv" href="https://github.com/mattlewer/ReadyMealNutrition"><br/>Click Me</a></p>
                     </div>
-                    </div>
+                </div>
+                <div className="ab-ImageContainer">
+                    <img className="ab-dataImage" src={DataImage} alt="Oops"/>
                 </div>
             </div>
         </section>
