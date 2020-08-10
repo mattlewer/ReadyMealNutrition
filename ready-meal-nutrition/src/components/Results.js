@@ -8,7 +8,7 @@ function Results(){
                 <div className="rs-imageContainer">
                     <img className="rs-image" src={DataImage} alt="Oops"/>
                 </div>
-                <div class="results-content">
+                <div className="results-content">
                     <div className="rs-headers">
                         <h3 className="ResultsTitle">Results</h3>
                         <p className="rs-subHead">Thoughts on data and general conclusion</p>

@@ -4,10 +4,12 @@
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
 }
 section{
   scroll-snap-align: start;
   scroll-margin-top: 0;
+  
 }
 
 /* @media screen and (max-width:600px){

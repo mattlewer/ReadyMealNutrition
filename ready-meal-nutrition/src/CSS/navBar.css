@@ -16,16 +16,7 @@
     list-style-type: none;
     font-size: 14px;
     margin: 0;
-    padding: 0;
-}
-
-li{
-    display:inline-block;
-    color: white;
-    margin-left: 5%;
-    margin-right: 2%;
-    text-decoration: none;
-    transition: 0.5s;
+    padding-left:50px;
 }
 
 a{
@@ -38,15 +29,16 @@ a{
     cursor: pointer;
 }
 
+
 a:hover, a.active{
     color: #ff638f;
 }
 
-
-li:last-child{
+.AboutLink{
     float: right;
     margin-right:10%;
 }
+
 
 
 @media screen and (max-width:600px){
@@ -56,9 +48,11 @@ li:last-child{
         vertical-align: middle;
         cursor: pointer;
     }
-    li:last-child{
+    .linkList{
+        padding-left:0px;
+    }
+    .AboutLink{
         float: none;
-        margin-right:10%;
-        
+        margin-right:10%; 
     }
 }

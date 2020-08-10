@@ -121,6 +121,13 @@ function AllDataChart(){
     });
 
     let allProductChatOptions =  {
+      hover: {
+        onHover: function(e) {
+           var point = this.getElementAtEvent(e);
+           if (point.length) e.target.style.cursor = 'pointer';
+           else e.target.style.cursor = 'default';
+        }
+     },
       plugins: {
         datalabels: {
            // hide datalabels for all datasets
@@ -128,6 +135,9 @@ function AllDataChart(){
         }
       },
       legend:{
+        onHover: function(e) {
+          e.target.style.cursor = 'pointer';
+       },
         display:true,
         labels:{
           fontColor: '#FF638F',

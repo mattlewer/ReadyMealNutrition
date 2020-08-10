@@ -1,9 +1,7 @@
 import React from 'react';
 import {Bar} from 'react-chartjs-2'
-import ChartDataLabels from 'chartjs-plugin-datalabels'
+import 'chartjs-plugin-datalabels'
 import Chart from 'chart.js';
-import { wait } from '@testing-library/react';
-
 
 Chart.defaults.global.plugins.datalabels.anchor = 'end';
 Chart.defaults.global.plugins.datalabels.align = 'end';

@@ -8,6 +8,13 @@ import About from './components/About'
 import './CSS/AllStyle.css'
 
 function App() {
+
+  // window.addEventListener("wheel", function(e){
+  //   e.preventDefault();
+  // }, 
+  // {
+  //   passive: false
+  // });
   return (
     <div className="App">
       <Navbar/>
