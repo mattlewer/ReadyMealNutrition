@@ -40,7 +40,7 @@ function navbar(){
                         Results
                     </Link>
                     <Link
-                    className="AboutLink"
+                    
                     activeClass="active"
                     to="ObtainingData"
                     spy={true}
@@ -50,6 +50,9 @@ function navbar(){
                     >
                         About
                     </Link>
+                    <li class="AboutLink">
+                        Design and Creation by Matthew Lewer
+                    </li>
                 </ul>
             </div> 
         </div>

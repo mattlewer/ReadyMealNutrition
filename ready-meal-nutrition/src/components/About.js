@@ -8,7 +8,6 @@ function About(){
                 <div className="ab-content">
                     <div className="ab-headers">
                         <h3 className="ab-title">About</h3>
-                        
                         <h1 className="ab-mid">Python scripts - Selenium & BS4</h1>
                         <p className="ab-subHead">For collecting data, Python Scripts were created to retrieve all nutritional
                         data for UK supermarkets, under the sub-section 'Ready Meals For One'<br/></p>
