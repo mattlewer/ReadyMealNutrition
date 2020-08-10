@@ -1,0 +1,60 @@
+.PieHolder{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+}
+.PieHolder1{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin:auto;
+    
+}
+.PieHolder2{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+}
+
+.Pie{
+    width:100%;
+    height:20%;
+}
+
+.Text-Area{
+    width:100%;
+    text-align: center;
+    font-size:70%;
+
+    margin-top:-20px;
+}
+
+.DataTitle{
+    width:100%;
+    font-weight: lighter;
+    font-size:150%;
+    color: #FF638F;
+    order:1;
+}
+
+@media screen and (max-width:600px){
+    .DataTitle{
+        width:100%;
+        font-weight: lighter;
+        font-size:130%;
+        color: #FF638F;
+        order:1;
+    }
+    .PieHolder{
+        flex-direction: column;
+        width:100%;
+    }
+    .PieHolder2{
+        flex-direction: column;
+        width:100%
+    }
+    .PieHolder1{
+        width:100%;
+    }
+    
+}

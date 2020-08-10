@@ -1,0 +1,318 @@
+
+/* FIRST SECTION */
+section{
+    scroll-snap-align: start;
+    scroll-margin-top: 0;
+  }
+.WhatsHealthySection{
+    padding:0;
+    margin:0;
+    color:#d1d1d1;
+    background-color: #1c1c1c;
+    height:400vh;
+}
+.first{
+    display:flex;
+    flex-direction: column;
+    padding-top:10vh;
+    height:90vh;
+    justify-content: center;
+}
+
+.MainContent{
+    margin-left:2%;
+    margin-right:2%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.ChartContainer{
+    width:60%;
+    right:50%;
+    order:2;
+    margin:auto;
+}
+
+.Text-Area{
+    width:100%;
+    text-align: center;
+    font-size:70%;
+
+    margin-top:-20px;
+}
+
+.DataTitle{
+    text-align:center;
+    width:100%;
+    font-weight: lighter;
+    font-size:150%;
+    color: #FF638F;
+    order:1;
+}
+.dc-subHead{
+    width:100%;
+    font-size:70%;
+    order:3;
+}
+
+@media screen and (max-width:750px){
+    .WhatsHealthySection{
+        height:400vh;
+    }
+    .first{
+        justify-content: flex-start;
+        height:50vh;
+    }
+    .dc-all{
+        padding:0;
+    }
+    .MainContent{
+        display:flex;
+        flex-direction: column;
+    }
+    .ChartContainer{
+        width:100%;
+        right:50%;
+        order:2;
+    }
+    
+    .DataTitle{
+        width:100%;
+        font-weight: lighter;
+        font-size:130%;
+        color: #FF638F;
+        order:1;
+    }
+
+    .dc-subHead{
+        order:3;
+        width:50%;
+        text-align: center;
+        margin:auto;
+    }
+}
+
+/* SECOND SECTION */
+/* AVERAGE READY MEALS */
+
+.od-all{   
+    display:flex;
+    flex-direction: column;
+    padding-top:10vh;
+    height:90vh;
+    justify-content: center;
+}
+.ContentControl{
+ 
+}
+.od-content{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+@media screen and (max-width:750px){
+    .od-all{
+        height:130vh;
+     
+        width: 100%;
+        margin:0;
+        padding:0;
+        margin-bottom: 100px;
+    }
+    .ContentControl{
+        padding-top:15vh;
+        height:100%;
+        margin:0;
+        align-content: flex-start;
+    }
+
+}
+
+/* THIRD SECTION */
+/* COMPARE AVERAGE TO HEALTH */
+
+.AverageToHealth{
+
+    color:#d1d1d1;
+    background-color: #1c1c1c;
+    height:100vh;
+ 
+
+}
+.ah-content{
+    padding-top:9vh;
+    width:100%;
+}
+
+.ah-content{
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    height:90%;
+}
+
+
+.ah-title{
+    width:100%;
+    font-weight: lighter;
+    font-size:150%;
+    color: #FF638F;
+    order:1;
+    margin-bottom:-10px;
+}
+.ah-subHead{
+    order:2;
+    width:100%;
+    text-align: center;
+    font-size: 70%;
+}
+#Healthy{
+    display:inline;
+    color:#99D19C;
+}
+#Moderate{
+    display:inline;
+    color:#FFA630;
+}
+
+#Unhealthy{
+    display:inline;
+    color:#EE7674;
+
+}
+#Tesco{
+    display:inline;
+    color: #4DA1A9;
+}
+#Sainsburys{
+    display:inline;
+    color:#ff8c00;
+}
+#Morrisons{
+    display:inline;
+    color:#00b023;
+}
+#Waitrose{
+    display:inline;
+    color:#c852ff;
+}
+
+.ChartContainerComp{
+    width:78%;
+    right:50%;
+    order:3;
+    text-align:center;
+    margin:auto;
+}
+
+@media screen and (max-width:750px){
+    .AverageToHealth{
+        height:110vh;
+    }
+    .ah-content{
+        width:100%;
+        height:100%;
+        padding-top: 10vh;
+        justify-content: flex-start;
+    }
+    .ChartContainerComp{
+        justify-content: flex-start;
+        width:100%;
+    }
+    .AreTheyHealthyCharts{
+        margin:0;
+        justify-content: flex-start;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .allProductGraph{
+        width:100%;
+    }
+    .ah-subHead{
+        padding-top:10px;
+    }
+
+}
+
+/* FOURTH SECTION */
+/* COMPARE ALL PRODUCTS */
+.hee{
+    padding:0;
+    margin:0;
+    color:#d1d1d1;
+    background-color: #1c1c1c;
+    height:100vh;
+}
+
+.he-content{
+    padding-top:10vh;
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+}
+.he-title{
+    width:100%;
+    font-weight: lighter;
+    font-size:150%;
+    color: #FF638F;
+    order:1;
+}
+
+.he-subHead{
+    width:100%;
+    font-size:70%;
+    order:2;
+    margin-top:-25px;
+}
+.allProductGraph{
+    width:77%;
+    margin:auto;
+    order:3;
+}
+@media screen and (max-width:750px){
+    .hee{
+        height:100vh;
+        background-color: #1c1c1c;
+    }
+    .he-content{
+        margin:0;
+        background-color: #1c1c1c;
+
+        margin: auto;
+        height:100%;
+    }
+    .heInnerContent{
+        width:100%;
+        height:70%;
+        margin:auto;
+
+    }
+    .he-subHead{
+        width:100%;
+        font-size:70%;
+        order:2;
+        margin-top:-25px;
+    }
+    .allProductGraph{
+        justify-content: center;
+
+
+        width:100%;
+        order:2,
+    }
+}

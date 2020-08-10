@@ -1,0 +1,62 @@
+.navbar{
+    color:white;
+    background-color: #262626;
+    height: 10vh;
+    width:100%;
+    display:table;
+    position:fixed;
+}
+
+.links{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+.linkList{
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display:inline-block;
+    color: white;
+    margin-left: 5%;
+    margin-right: 2%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a{
+    display:inline-block;
+    color: white;
+    margin-left: 5%;
+    margin-right: 2%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover, a.active{
+    color: #ff638f;
+}
+
+
+li:last-child{
+    float: right;
+    margin-right:10%;
+}
+
+
+@media screen and (max-width:600px){
+    .links{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    li:last-child{
+        float: none;
+        margin-right:10%;
+        
+    }
+}

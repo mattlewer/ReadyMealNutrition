@@ -1,0 +1,43 @@
+
+
+/* SCROLL BAR */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+section{
+  scroll-snap-align: start;
+  scroll-margin-top: 0;
+}
+
+/* @media screen and (max-width:600px){
+  html{
+    scroll-snap-type: none;
+  }
+} */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+  background-color: #262626;
+  background: #262626;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  margin-top: 10%;
+  background: #1c1c1c; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF638F; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF638F; 
+  border-radius: 10px;
+}
